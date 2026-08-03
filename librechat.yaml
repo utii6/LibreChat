@@ -883,7 +883,6 @@ endpoints:
 #     # instructions: "You are a memory management assistant. Store and manage user information accurately."
 #     # model_parameters:
 #     #   temperature: 0.1
-endpoints:
   custom:
     - name: "OpenRouter"
       apiKey: "${OPENROUTER_KEY}"
