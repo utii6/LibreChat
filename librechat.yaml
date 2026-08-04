@@ -883,15 +883,7 @@ endpoints:
 #     # instructions: "You are a memory management assistant. Store and manage user information accurately."
 #     # model_parameters:
 #     #   temperature: 0.1
-  custom:
-    - name: "OpenRouter"
-      apiKey: "${OPENROUTER_KEY}"
-      baseURL: "https://openrouter.ai/api/v1"
-      models:
-        default: ["meta-llama/llama-3-70b-instruct"]
-        fetch: true
-      titleConvo: true
-      modelDisplayLabel: "OpenRouter"
+
 # Reject chat messages whose text matches credential-shaped patterns
 # before they reach moderation, the model, or persistence. Filter
 # types live under `messageFilter.<type>`; today only `pii` ships, but
